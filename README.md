@@ -21,7 +21,7 @@ sed -i "s|bind_user == 'True'|bind_user == 'XXXX'|" /www/server/panel/BTPanel/st
 rm -f /www/server/panel/data/bind.pl
 ```
 
-3，手动解锁宝塔所有付费插件为永不过期
+3，手动解锁宝塔所有付费插件为永不过期 #这里新安装面板要先打开一下后台软件商城，生成plugin.json文件#
 
 文件路径：`/www/server/panel/data/plugin.json`
 
